@@ -52,7 +52,7 @@ const LabelContainer = styled.label<Pick<LabelProps, 'size'>>`
  * @param {LabelProps} props - Props for the Label component.
  * @returns {JSX.Element} The rendered Label component.
  */
-export const Label: React.FC<LabelProps> = ({
+const Label: React.FC<LabelProps> = ({
   children,
   size = 'medium',
   iconLeft,
@@ -64,3 +64,5 @@ export const Label: React.FC<LabelProps> = ({
     {iconRight && <span>{iconRight}</span>}
   </LabelContainer>
 );
+
+export default Label;

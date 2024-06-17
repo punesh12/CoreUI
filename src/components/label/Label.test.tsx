@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-import { Label } from './Label';
+import Label from './Label';
 
 describe('Label component', () => {
   test('renders text only', () => {
